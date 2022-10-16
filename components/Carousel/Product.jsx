@@ -4,7 +4,6 @@ import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { products } from '../../store/products';
-import ProductImage from '../../public/Product.png';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
