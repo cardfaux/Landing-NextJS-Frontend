@@ -1,8 +1,8 @@
-import HeroSlider from '../components/Carousel/HeroSlider.jsx';
-import Collections from '../components/Collections';
-import ShopNew from '../components/ShopNew';
-import FavoriteTees from '../components/FavoriteTees';
-import SignUp from '../components/SignUp';
+import HeroSlider from '../components/Carousel/HeroSlider/HeroSlider';
+import Collections from '../components/Collections/Collections';
+import ShopNew from '../components/ShopNew/ShopNew';
+import FavoriteTees from '../components/FavoriteTees/FavoriteTees';
+import SignUp from '../components/SignUp/SignUp';
 
 import styles from '../styles/Home.module.scss';
 

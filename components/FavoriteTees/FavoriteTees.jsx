@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-import ShopNow from './ShopNow';
+import ShopNow from '../ShopNow/ShopNow';
 
-import FavoriteTee from '../public/FavoriteTees.png';
-import styles from '../styles/FavoriteTees.module.scss';
+import FavoriteTee from '../../public/FavoriteTees.png';
+import styles from './FavoriteTees.module.scss';
 
 const FavoriteTees = () => {
   return (

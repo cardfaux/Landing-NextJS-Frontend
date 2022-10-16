@@ -3,17 +3,17 @@ import Image from 'next/image';
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import ShopNow from '../ShopNow';
-import SlideOne from '../../public/SlideOne.png';
-import SlideTwo from '../../public/SlideTwo.png';
-import SlideThree from '../../public/SlideThree.png';
+import ShopNow from '../../ShopNow/ShopNow';
+import SlideOne from '../../../public/SlideOne.png';
+import SlideTwo from '../../../public/SlideTwo.png';
+import SlideThree from '../../../public/SlideThree.png';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import styles from '../../styles/Hero.module.scss';
+import styles from './Hero.module.scss';
 
 const Hero = () => {
   return (

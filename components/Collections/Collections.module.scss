@@ -8,7 +8,7 @@
 
   .womens {
     position: relative;
-    background-image: url('../public/Womens_Image.webp');
+    background-image: url('../../public/Womens_Image.webp');
     aspect-ratio: 163 / 213;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 
   .mens {
     position: relative;
-    background-image: url('../public/Mens_Image.webp');
+    background-image: url('../../public/Mens_Image.webp');
     aspect-ratio: 163 / 213;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@
   .accessories {
     position: relative;
     grid-column: 1 / 3;
-    background-image: url('../public/AccessoriesImage.webp');
+    background-image: url('../../public/AccessoriesImage.webp');
     aspect-ratio: 335 / 203;
     background-position: center;
     background-repeat: no-repeat;

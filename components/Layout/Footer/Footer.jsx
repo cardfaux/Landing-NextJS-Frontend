@@ -1,8 +1,8 @@
-import FacebookIcon from '../SVG/Facebook';
-import InstagramIcon from '../SVG/Instagram';
-import TwitterIcon from '../SVG/Twitter';
+import FacebookIcon from '../../SVG/Facebook';
+import InstagramIcon from '../../SVG/Instagram';
+import TwitterIcon from '../../SVG/Twitter';
 
-import styles from '../../styles/Footer.module.scss';
+import styles from './Footer.module.scss';
 
 const Footer = () => {
   return (

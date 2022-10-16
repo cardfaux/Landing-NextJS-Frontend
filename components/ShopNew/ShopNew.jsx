@@ -1,6 +1,6 @@
-import Product from './Carousel/Product';
+import Product from '../Carousel/Product/Product';
 
-import styles from '../styles/ShopNew.module.scss';
+import styles from './ShopNew.module.scss';
 
 const ShopNew = () => {
   return (
@@ -9,6 +9,6 @@ const ShopNew = () => {
       <Product />
     </section>
   );
-}
+};
 
 export default ShopNew;

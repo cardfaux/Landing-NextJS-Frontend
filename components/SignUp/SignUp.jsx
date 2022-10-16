@@ -1,6 +1,6 @@
-import SignUpIcon from './SVG/SignUp';
+import SignUpIcon from '../SVG/SignUp';
 
-import styles from '../styles/SignUp.module.scss';
+import styles from './SignUp.module.scss';
 
 const SignUp = () => {
   return (

@@ -1,8 +1,8 @@
-import AnnouncementBar from './AnnouncementBar';
-import Header from './Header';
-import Footer from './Footer';
+import AnnouncementBar from './AnnouncementBar/AnnouncementBar';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
-const Layout = ({ children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <AnnouncementBar />
@@ -10,7 +10,7 @@ const Layout = ({ children}) => {
       <main>{children}</main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
 export default Layout;

@@ -3,14 +3,14 @@ import Image from 'next/image';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { products } from '../../store/products';
+import { products } from '../../../store/products';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import styles from '../../styles/Carousel.module.scss';
+import styles from './Carousel.module.scss';
 
 const Product = () => {
   return (

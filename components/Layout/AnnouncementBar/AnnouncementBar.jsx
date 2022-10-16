@@ -1,4 +1,4 @@
-import styles from '../../styles/AnnouncementBar.module.scss';
+import styles from './AnnouncementBar.module.scss';
 
 const AnnouncementBar = () => {
   return (
@@ -6,6 +6,6 @@ const AnnouncementBar = () => {
       <h1>free shipping on all orders</h1>
     </section>
   );
-}
+};
 
 export default AnnouncementBar;

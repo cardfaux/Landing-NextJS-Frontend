@@ -1,4 +1,4 @@
-import styles from '../styles/ShopNow.module.scss';
+import styles from './ShopNow.module.scss';
 
 const ShopNow = ({ title, subTitle, buttonText, white, right }) => {
   return (

@@ -1,4 +1,4 @@
-import styles from '../styles/Collections.module.scss';
+import styles from './Collections.module.scss';
 
 const Collections = () => {
   return (
