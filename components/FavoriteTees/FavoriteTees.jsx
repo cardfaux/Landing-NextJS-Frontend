@@ -9,7 +9,7 @@ const FavoriteTees = () => {
   return (
     <>
       <section className={styles.favorite}>
-        <Image layout='responsive' src={FavoriteTee} alt='change this' width={1440} height={638} />
+        <Image loading='lazy' layout='responsive' src={FavoriteTee} alt='change this' width={1440} height={638} />
         <ShopNow title='our favorite tees' subTitle='Everyday tees you need' buttonText='shop now' white right />
       </section>
     </>

@@ -7,8 +7,6 @@ import { products } from '../../../store/products';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 import styles from './Carousel.module.scss';
 
@@ -32,8 +30,6 @@ const Product = () => {
           },
         }}
         pagination={{ clickable: true }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         className={styles.swiper}
       >
         {products.map((product) => {
@@ -41,7 +37,14 @@ const Product = () => {
             <SwiperSlide key={product.id.toString()}>
               <figure>
                 <div className={styles.imagecontainer}>
-                  <Image layout='responsive' src={product.image} alt='change this' width={280} height={421} />
+                  <Image
+                    loading='lazy'
+                    layout='responsive'
+                    src={product.image}
+                    alt='change this'
+                    width={280}
+                    height={421}
+                  />
                 </div>
                 <h1>{product.title}</h1>
                 <h2>{product.subTitle}</h2>
