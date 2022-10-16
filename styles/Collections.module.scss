@@ -1,0 +1,117 @@
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  //grid-template-columns: repeat(auto-fit, minmax(435px, 1fr));
+  column-gap: 20px;
+  row-gap: 20px;
+  padding: 20px 20px;
+
+  .womens {
+    position: relative;
+    background-image: url('../public/Womens_Image.webp');
+    aspect-ratio: 163 / 213;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 980px) {
+      width: 33.33%;
+      max-width: 435px;
+      min-width: 300px;
+      height: 569px;
+    }
+
+    p {
+      margin: 0;
+      background-color: rgba(16, 80, 79, 1);
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
+    }
+  }
+
+  .mens {
+    position: relative;
+    background-image: url('../public/Mens_Image.webp');
+    aspect-ratio: 163 / 213;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 980px) {
+      width: 33.33%;
+      max-width: 435px;
+      min-width: 300px;
+      height: 569px;
+    }
+
+    p {
+      margin: 0;
+      background-color: rgba(16, 80, 79, 1);
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
+    }
+  }
+
+  .accessories {
+    position: relative;
+    grid-column: 1 / 3;
+    background-image: url('../public/AccessoriesImage.webp');
+    aspect-ratio: 335 / 203;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 980px) {
+      // grid-column: auto;
+      width: 33.33%;
+      max-width: 435px;
+      min-width: 300px;
+      height: 569px;
+    }
+
+    p {
+      margin: 0;
+      background-color: rgba(16, 80, 79, 1);
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Pacifico';
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(20px, 3vw, 40px);
+      line-height: 35px;
+      height: 42px;
+      text-transform: capitalize;
+    }
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #10504f;
+    padding: 2%;
+  }
+
+  @media (min-width: 980px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1440px;
+    margin: auto;
+  }
+}

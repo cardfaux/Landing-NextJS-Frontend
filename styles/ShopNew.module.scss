@@ -1,0 +1,23 @@
+.shopnew {
+  padding: 20px 20px;
+  h3 {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+
+    @media (min-width: 980px) {
+      line-height: 2;
+    }
+  }
+  @media (min-width: 980px) {
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 20px;
+  }
+}

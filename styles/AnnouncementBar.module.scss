@@ -1,0 +1,25 @@
+.announcementBar {
+  background-color: rgba(0, 0, 0, 1.0);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 0;
+  height: 46px;
+  h1 {
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-style: normal;
+    color: #EFEFEF;
+    margin: 0
+  }
+
+  @media (min-width: 980px) {
+    height: 58px;
+  }
+}

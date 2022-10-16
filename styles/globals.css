@@ -1,0 +1,73 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255) !important;
+  opacity: 0.6 !important;
+}
+
+.swiper-pagination-bullet.active-bullets {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: -4px !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: -4px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px !important;
+  color: black !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 191px !important;
+}
+
+@media (min-width: 980px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    /* display: none !important; */
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 10px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 20px !important;
+  }
+  .Hero_hero__ANozN .swiper {
+    max-height: 638px;
+  }
+  .Hero_hero__ANozN img {
+    object-fit: fill;
+  }
+}
